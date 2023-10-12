@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.772 s <<< FAILURE! - in runner.TestRunner
+initializationError(runner.TestRunner)  Time elapsed: 0.006 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: java.lang.NoClassDefFoundError: io/cucumber/messages/internal/com/google/protobuf/GeneratedMessageV3
+Caused by: java.lang.NoClassDefFoundError: io/cucumber/messages/internal/com/google/protobuf/GeneratedMessageV3
+Caused by: java.lang.ClassNotFoundException: io.cucumber.messages.internal.com.google.protobuf.GeneratedMessageV3
+
